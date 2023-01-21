@@ -1,0 +1,82 @@
+body{
+    background-color: antiquewhite;
+}
+.hoverbutton{
+    bottom : 20px;
+    right: 20px;
+    transition: 0.5s;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#redbutton{
+    bottom: 22px;
+    right: 22px;
+    z-index: -1;
+    transition: 0.5s;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(150, 20, 20);
+    border-radius: 50%;
+    color: aliceblue;
+}
+#redbutton > p{
+    font-size: 9px;
+    margin-left: -2px;
+    margin-top: 24px;
+}
+#greenbutton{
+    bottom: 22px;
+    right: 22px;
+    z-index: -1;
+    transition: 0.5s;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(20,150,20);
+    border-radius: 50%;
+    color: aliceblue;
+}
+#greenbutton > p{
+    margin-left: -2px;
+    margin-top: 23px;
+}
+#bluebutton{
+    bottom: 22px;
+    right: 22px;
+    z-index: -1;
+    transition: 0.5s;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(20, 20, 150);
+    border-radius: 50%;
+    color: aliceblue;
+}
+#bluebutton > p{
+    margin-left: -2px;
+    margin-top: 23px;
+}
+img{
+    height: 60px;
+    z-index: 2;
+}
+.button:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px 8px black;
+}
